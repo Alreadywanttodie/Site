@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8E9A1;
+    color: #374785;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    background-color: #24305E;
+    color: #F8E9A1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  table, th, td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+    font-size: 34px;
+  }
+  .photo {
+    min-width: 500px;
+    min-height: 300px;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: 300px;
+  }
+  a{
+    font-size: 26px;
+    position: relative;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: #374785;
+    line-height: 14;
+    bottom: 150px;
+    background-color: #a8d0e6;
+    border-radius: 7px;
+  }
+  a:hover{
+    background-color: #8fc5e2;
+  }
+  p, h1{
+    color: #000;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #24305E;
+  }
+  li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+  input{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+  }
+  label{
+    font-size: 24pxpx;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  button{
+    font-size: 34px;
+    background-color: #F76C6C;
+    color: #f2f2f2;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 48px;
+  }
+  button:hover{
+    background-color: #ec4f4f;
+  }

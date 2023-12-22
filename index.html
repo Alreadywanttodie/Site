@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт о мотоциклах</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo-moto.png" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="мотоциклы.html">Мотоциклы</a></li>
+      <li><a href="о-нас.html">О нас</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Добро пожаловать в интернет-магазин мотоциклов!</h1>
+    <p>Здесь вы можете найти много разных мотоциклов, готовых к покупке.</p>
+    <img src="мотоцикл1.jpg" alt="Мотоцикл 1">
+    <p>Гордость магазина:</p>
+      <h2>Dodge Tomahawk</h2>
+      <h2>Street Fighter MTT</h2>
+      <h2>Turbine Superbike MTT</h2>
+    <form id="motorcycleForm">
+      <p><label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required></p>
+      <p><label for="email">Email:</label>
+      <input type="email" id="email" name="email" required></p>
+      <p><label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required></p>
+      <p><label for="model">Модель мотоцикла:</label>
+      <input type="text" id="model" name="model" required></p>
+      <button type="button" id="submitBtn">Отправить</button>
+    </form>
+    <div id="message"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
